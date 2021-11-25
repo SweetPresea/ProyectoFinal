@@ -136,7 +136,7 @@ p {
 }
 
 .welcome {
-  background-image: url("/img/home/readingImage.jpg");
+  background-image: url("../img/home/readingImage.jpg");
   background-size: cover;
   background-position: center center;
   margin-bottom: 50px;
@@ -199,7 +199,10 @@ p {
   margin: auto;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "title title title" "text1 text2 text3" "text1 text2 text3" "text1 text2 text3";
+      grid-template-areas: "title title title"
+ "text1 text2 text3"
+ "text1 text2 text3"
+ "text1 text2 text3";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 3fr;
@@ -236,7 +239,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/flower.jpeg");
+  background-image: url("../img/home/flower.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -259,7 +262,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/Seaside.jpeg");
+  background-image: url("../img/home/Seaside.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -282,7 +285,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/home/Skull.jpeg");
+  background-image: url("../img/home/Skull.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -295,7 +298,10 @@ p {
   margin: auto;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "title title title" "text1 text2 text3" "text1 text2 text3" "text1 text2 text3";
+      grid-template-areas: "title title title"
+ "text1 text2 text3"
+ "text1 text2 text3"
+ "text1 text2 text3";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 3fr;
@@ -332,7 +338,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/reviews/kingdom_review.jpg");
+  background-image: url("../img/reviews/kingdom_review.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -355,7 +361,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/reviews/One_review.jpg");
+  background-image: url("../img/reviews/One_review.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -378,7 +384,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("/img/reviews/Shouting_review.jpg");
+  background-image: url("../img/reviews/Shouting_review.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -404,7 +410,10 @@ p {
     margin: auto;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "title  " "text1  " "text2  " "text3  ";
+        grid-template-areas: "title  "
+ "text1  "
+ "text2  "
+ "text3  ";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 2fr 2fr 2fr;
@@ -424,7 +433,10 @@ p {
     margin: auto;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "title  " "text1  " "text2  " "text3  ";
+        grid-template-areas: "title  "
+ "text1  "
+ "text2  "
+ "text3  ";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 2fr 2fr 2fr;
@@ -466,7 +478,10 @@ p {
   display: -ms-grid;
   display: grid;
   color: white;
-      grid-template-areas: "title title title" "title title title"    "newsletter social contact" "newsletter social contact";
+      grid-template-areas: "title title title"
+ "title title title"   
+ "newsletter social contact"
+ "newsletter social contact";
 }
 
 .footer .footer__title {
